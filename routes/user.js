@@ -4,9 +4,9 @@ const router = express.Router();
 const users = [
   {
     id: 1,
-    fullname: "Harry Potter",
+    fullname: "Chakara Paensuk",
     avatar:
-      "https://www.flashfly.net/wp/wp-content/uploads/2022/05/FTX1B5hWIAA6GRr-2-800x600.jpeg",
+      "https://img5.pic.in.th/file/secure-sv1/87965033_539804756662267_1473529551848996864_n.jpg",
   },
   {
     id: 2,
@@ -40,11 +40,11 @@ const users = [
  *       401:
  *         description: Unauthorized. Invalid credentials.
  */
-router.post("/user/login", function (req, res) {
+router.post("67130052", function (req, res) {
   const { username, password } = req.body;
   const id = 1; //รหัส User 1
   // Validate username and password (example: check against database)
-  if (username === "exampleUser" && password === "examplePassword") {
+  if (username === "67130052" && password === "chakarapaensuk") {
     // Authentication successful
     res
       .status(200)
